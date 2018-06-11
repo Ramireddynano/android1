@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4a4a5a"
+    tools:context=".RecipeDescription"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin"
+        android:textSize="@dimen/inge_size"
+        android:background="@color/text_background"
+        android:text="@string/ingredient_name"
+        android:onClick="ingre"
+        android:id="@+id/ingredients"
+        />
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="@dimen/recycler_width"
+        android:layout_height="@dimen/recycler_height"
+        android:layout_gravity="center"
+        android:id="@+id/ing1_recycler"
+        >
+    </android.support.v7.widget.RecyclerView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/preparation_steps"
+        android:textSize="@dimen/steps_size"
+        android:layout_margin="@dimen/margin"
+        android:background="@color/text_background"
+        />
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="@dimen/recycler_width"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:id="@+id/setps_recycler"
+        >
+    </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>

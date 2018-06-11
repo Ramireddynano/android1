@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="steps_size">30sp</dimen>
+    <dimen name="margin">5dp</dimen>
+    <dimen name="inge_size">30sp</dimen>
+    <dimen name="recycler_width">300dp</dimen>
+    <dimen name="recycler_height">200dp</dimen>
+    <dimen name="ingredient_text_size">25sp</dimen>
+</resources>
